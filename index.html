@@ -17,31 +17,49 @@
     </article>
     <nav>
       <ul>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Sales</a></li>
-        <li><a>Contact</a></li>
+        <li><a href="#home-section">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#">Sales</a></li>
+        <li><a href="#contact-section">Contact</a></li>
       </ul>
     </nav>
   </header>
-
-  <section id="showcase">
-    <h1>Karen G. Realty</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus semper rutrum. Mauris vestibulum mi nisl, sit amet congue dolor varius sit amet. Donec sed metus pharetra risus maximus pretium. Vivamus non tempor est.</p>
-  </section>
-
-  <section id="about">
-    <h2>What I Do</h2>
-    <img src="./img/maurice-williams-tPX992SVljo-unsplash.jpg" width="30%">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus semper rutrum. Mauris vestibulum mi nisl, sit amet congue dolor varius sit amet. Donec sed metus pharetra risus maximus pretium. Vivamus non tempor est.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Leave an Inquiry</h2>
-
-    <input type="email" placeholder="yourName@email.com"> </input>
-    <textarea placeholder="Leave a short description of what you are looking for..." cols="50" rows="10" type=""></textarea>
-  </section>
+  <a id="home-section">
+    <section id="home">
+      <h1>Karen G. Realty</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus semper rutrum. Mauris vestibulum mi nisl, sit amet congue dolor varius sit amet. Donec sed metus pharetra risus maximus pretium. Vivamus non tempor est.</p>
+    </section>
+  </a>
+  <a id="about-section">
+    <section id="about">
+      <h2>What I Do</h2>
+      <img src="./img/maurice-williams-tPX992SVljo-unsplash.jpg" width="30%">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus semper rutrum. Mauris vestibulum mi nisl, sit amet congue dolor varius sit amet. Donec sed metus pharetra risus maximus pretium. Vivamus non tempor est.</p>
+    </section>
+  </a>
+  <a id="contact-section">
+    <section id="contact">
+      <article>
+        <h2>Keep In Touch</h2>
+        <ul>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">LinkedIn</a></li>
+          <li><a href="">Other social</a></li>
+        </ul
+      </article>
+      <h2>Leave An Inquiry</h2> 
+      <form id="inquiry">
+        <fieldset>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="yourName@email.com" form>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Leave a short description of what you are looking for..." cols="50" rows="10" form></textarea>
+          <button form="inquiry" type="submit">Submit</button>
+        </fieldset>
+    </form>
+    </section>
+  </a>
 
 </body>
 </html>
