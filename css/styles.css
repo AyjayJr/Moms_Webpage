@@ -79,11 +79,16 @@ header li {
 /* About
 ===================================================== */
 #about {
-  background-color: #CAF0F8;
+  /*background-color: #CAF0F8; */
 }
 
 #about .container {
-  display: grid;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  flex: 1 1 1;
 }
 
 
@@ -91,7 +96,7 @@ header li {
 /* Contact
 ===================================================== */
 #contact {
-  background-color: #00B4D8;
+  /*background-color: #00B4D8; */
 }
 
 
@@ -101,5 +106,5 @@ footer {
   color: white;
   padding: 10px;
   text-align: center;
-  background-color: #03045E;
+  /*background-color: #03045E; */
 }
